@@ -1,0 +1,48 @@
+.special_container{
+    background-color: #7ed676;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    overflow: hidden;
+    width: 300px;
+    height: 400px;
+    margin: 30px;
+    box-shadow: 0px 0px 15px -5px;
+}
+.special{
+    justify-content: center;
+    align-items: center;
+}
+.special_img {
+    width: 300px;
+}
+
+.special_title,
+.special_category {
+    padding: 8px;
+    color: white;
+}
+
+.special_heading {
+    color: rgb(231, 67, 67);
+    font-size: 70px;
+    font-family: Brush Script MT;
+    margin-top: 10px;
+
+}
+
+.special_heading1 {
+    color: black;
+    font-size: 50px;
+    font-family: Brush Script MT;
+    float: left;
+    margin-top: 150px;
+}
+
+.special_heading2 {
+    color: black;
+    font-size: 50px;
+    font-family: Brush Script MT;
+    float: left;
+    margin-top: 200px;
+}
