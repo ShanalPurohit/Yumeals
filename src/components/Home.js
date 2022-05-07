@@ -17,14 +17,14 @@ function Home() {
             <input type="text" placeholder="Type a meal name" className="search" value={search} onChange={(e) => searchData(e.target.value)} />
             <div className="row">
                 <div className="container1">
-                    {
+                    {meals?.length > 0 ?
                         meals.map((item) =>
                             <div key={meals.idMeal}>
                                 <img className="img1" src={item.strMealThumb} alt=""/>
                                 <h4>Category:{item.strCategory}</h4>
                                 <h3 className="title">{item.strMeal}</h3>
                             </div>
-                        )
+                        ):<h2 className="notfound">No meals found!</h2>
                     }
                 </div>
             </div>
